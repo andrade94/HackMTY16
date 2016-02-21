@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get "Ecatalogo" => "catalogo#empleado", as: :Ecatalogo
+
+  get "Ecotizacion" => "cotizacion#empleado", as: :Ecotizacion
+
+  get "Einventario" => "inventario#empleado", as: :Einventario
+
+  get "Eordenes" => "ordenes#empleado", as: :Eordenes
+
+  get "Efacturacion" => "facturacion#empleado", as: :Efacturacion
+
   get "Acatalogo" => "catalogo#administrador", as: :Acatalogo
 
   get "Aventas" => "ventas#administrador", as: :Aventas
