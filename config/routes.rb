@@ -1,23 +1,23 @@
 Rails.application.routes.draw do
-  get 'administrador/catalogo'
+  get "Acatalogo" => "catalogo#administrador", as: :Acatalogo
 
-  get 'administrador/ventas'
+  get "Aventas" => "ventas#administrador", as: :Aventas
 
-  get 'administrador/balance'
+  get "Abalance" => "balance#administrador", as: :Abalance
 
-  get 'administrador/ocompra'
+  get "Aocompra" => "ocompra#administrador", as: :Aocompra
 
-  get 'administrador/nomina'
+  get "Anomina" => "nomina#administrador", as: :Anomina
 
-  get 'administrador/inventario'
+  get "Ainventario" => "inventario#administrador", as: :Ainventario
 
-  get 'administrador/predicciones'
+  get "Apredicciones" => "predicciones#administrador", as: :Apredicciones
 
-  get 'administrador/factura'
+  get "Afactura" => "factura#administrador", as: :Afactura
 
-  get "usuario" =>"login#usuario", as: :usuario
+  get "usuario" => "login#usuario", as: :usuario
 
-  get 'main/inicio'
+  get "inicio" => "inicio#main", as: :inicio 
 
   get 'main/acerca'
 
