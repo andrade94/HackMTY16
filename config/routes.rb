@@ -25,7 +25,7 @@ Rails.application.routes.draw do
 
   get "Afactura" => "administrador#factura", as: :Afactura
 
-  get "usuario" => "usuario#login", as: :usuario
+  get "usuario" => "login#usuario", as: :usuario
 
   get "inicio" => "inicio#main", as: :inicio 
 
