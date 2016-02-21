@@ -3,8 +3,6 @@ Rails.application.routes.draw do
 
   get 'main/inicio'
 
-  get 'main/contacto'
-
   get 'main/acerca'
 
 
