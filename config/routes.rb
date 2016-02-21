@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  get "usuario" =>"login#usuario", as: :usuario
+
   get 'main/inicio'
 
   get 'main/contacto'
 
   get 'main/acerca'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
