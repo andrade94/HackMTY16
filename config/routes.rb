@@ -1,31 +1,31 @@
 Rails.application.routes.draw do
-  get "Ecatalogo" => "catalogo#empleado", as: :Ecatalogo
+  get "Ecatalogo" => "empleado#catalogo", as: :Ecatalogo
 
-  get "Ecotizacion" => "cotizacion#empleado", as: :Ecotizacion
+  get "Ecotizacion" => "empleado#cotizacion", as: :Ecotizacion
 
-  get "Einventario" => "inventario#empleado", as: :Einventario
+  get "Einventario" => "empleado#inventario", as: :Einventario
 
-  get "Eordenes" => "ordenes#empleado", as: :Eordenes
+  get "Eordenes" => "empleado#ordenes", as: :Eordenes
 
-  get "Efacturacion" => "facturacion#empleado", as: :Efacturacion
+  get "Efacturacion" => "empleado#facturacion", as: :Efacturacion
 
-  get "Acatalogo" => "catalogo#administrador", as: :Acatalogo
+  get "Acatalogo" => "administrador#catalogo", as: :Acatalogo
 
-  get "Aventas" => "ventas#administrador", as: :Aventas
+  get "Aventas" => "administrador#ventas", as: :Aventas
 
-  get "Abalance" => "balance#administrador", as: :Abalance
+  get "Abalance" => "administrador#balance", as: :Abalance
 
-  get "Aocompra" => "ocompra#administrador", as: :Aocompra
+  get "Aocompra" => "administrador#ocompra", as: :Aocompra
 
-  get "Anomina" => "nomina#administrador", as: :Anomina
+  get "Anomina" => "administrador#nomina", as: :Anomina
 
-  get "Ainventario" => "inventario#administrador", as: :Ainventario
+  get "Ainventario" => "administrador#inventario", as: :Ainventario
 
-  get "Apredicciones" => "predicciones#administrador", as: :Apredicciones
+  get "Apredicciones" => "administrador#predicciones", as: :Apredicciones
 
-  get "Afactura" => "factura#administrador", as: :Afactura
+  get "Afactura" => "administrador#factura", as: :Afactura
 
-  get "usuario" => "login#usuario", as: :usuario
+  get "usuario" => "usuario#login", as: :usuario
 
   get "inicio" => "inicio#main", as: :inicio 
 
