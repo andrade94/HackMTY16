@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'administrador/catalogo'
+
+  get 'administrador/ventas'
+
+  get 'administrador/balance'
+
+  get 'administrador/ocompra'
+
+  get 'administrador/nomina'
+
+  get 'administrador/inventario'
+
+  get 'administrador/predicciones'
+
+  get 'administrador/factura'
+
   get "usuario" =>"login#usuario", as: :usuario
 
   get 'main/inicio'
